@@ -1,0 +1,29 @@
+#flexPinterest {
+    margin: auto;
+    height: 1800px;
+    width: 900px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.imgContainer {
+    padding: 5px;
+    margin: 0;
+    width: 200px;
+}
+
+.imgContainer p {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(245, 245, 245);
+}
